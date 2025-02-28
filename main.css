@@ -618,6 +618,16 @@ div.head p{
 
 }
 
+
+/* input for gender */
+
+
+    
+    .gen1{
+        margin-left: 10px;
+
+      }
+
 label{
     width:140px;
     display: inline-block;
@@ -628,28 +638,18 @@ label{
 /* input all  */
 
 input{
-width:160px;
+width:190px;
 height:25px;
 border-radius: 5px;
 padding-left: 10px;
 }
 
-/* input for gender */
 
-input#gender1{
-width:auto;
-height:0%;
-border-radius: 0%;
-}
-
-.gen1{
-    margin-left: 10px;
-  }
 
 /* select treatment */
 
 select#services1{
-width:160px;
+width:190px;
 height:25px;
 border-radius: 5px;
 padding-left: 10px;
@@ -724,6 +724,8 @@ visibility: visible;
     border-radius: 8px;
 
 }
+
+
      
 }
 
