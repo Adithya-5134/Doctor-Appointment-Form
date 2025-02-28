@@ -1,0 +1,49 @@
+th{
+    color:whitesmoke;
+    font-size: 24px;
+    background-color:black;
+    
+}
+
+p{
+    text-align: center;
+    color: rgb(0, 66, 128);
+    font-size: 30px;
+    
+}
+#table{
+ display: flex;
+ margin: auto;
+ width: 90%;
+ background-color: rgba(148, 151, 151, 0.096);
+ border-radius: 6px;
+}
+
+
+td{
+  text-align: center;
+    color: black;
+    padding: 14px;
+    border-bottom: 1px solid grey;
+}
+
+#adhi{
+    display: none;
+}
+
+.data{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    color: red;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+
+
+
+
+    
+

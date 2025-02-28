@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>apollo</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="images/1a.png">
+</head>
+<body>
+    <header>
+        <nav class="navv">
+           <div class="aa"><p>Online Doctor Appointment Form</p></div> 
+            <div class="ab">
+                <p>ADMIN LOGIN</p>
+                <button class="buon" onclick="document.location='admin1.html'">Sign In</button>
+                <!-- <button><a href="admin1.html" target="_blank">Sign In</a></button> -->
+            </div>  
+        </nav>
+    </header>
+
+    
+<section class="whole">
+    <section class="main">
+        
+        <div class="head">
+            <h1 style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Patients Personal Details</h1>
+            <p>Fill the form below and we will get back soon to you for more updates</p>
+        </div>
+
+        <form action="form.php" method="post" id="form1">
+            <div class="form-content">
+           
+                <label for="name1" class="nam">Full Name </label>
+                <input type="text" id="name1" name="name"  >
+                
+             <small>Error Message</small>
+                
+             </div>
+                <br>
+                
+             <div class="form-content">
+                <label for="gender1">Gender</label>
+             <input type="radio" id="gender1" class="fac"  name="gender"  value="male" checked="checked">Male
+             <input type="radio" id="gender1" class="gen1"  name="gender" value="female">Female
+             <input type="radio" id="gender1" class="gen1"  name="gender" value="others">Others
+             <small>Error Message</small>
+             </div>
+             <br>
+     
+             <div class="form-content">
+             <label for="num1">Phone Number</label>
+            <input type="tel" id="num1" name="contact" >
+            <small>Error Message</small>
+            </div>
+            <br>
+     
+            <div class="form-content">
+            <label for="dob1">Date Of Birth</label>
+            <input type="date" id="dob1" name="dob" >
+            <small>Error Message</small>
+            </div>
+            <br>
+    
+            <div class="form-content">
+        
+            <label for="street1" class="add1">Street Address</label>
+            <input type="text" name="street" class="address1"  id="street1">
+            <small>Error Message</small>
+            </div>
+            <br>
+    
+            
+            <div class="form-content">
+                <label for="city1" class="add">City</label>
+             <input type="text" name="city" class="address2" id="city1" >
+             
+             <small>Error Message</small>
+            </div>
+            <br>
+    
+            <div class="form-content">
+                <label for="state1" class="add">State/Province</label>
+             <input type="text" name="state" class="address3" id="state1" >
+             
+             <small>Error Message</small>
+            </div>
+            <br>
+    
+            <div class="form-content">
+                <label for="zipcode1" class="add">Postal/Zip Code</label>
+             <input type="number" name="zipcode" class="address4"  id="zipcode1" >
+             
+             <small>Error Message</small>
+            </div>
+            <br>
+    
+            <div class="form-content">
+             <label for="email1">E-mail Address</label>
+             <input type="email" id="email1" name="email" placeholder="ex: myname@example.com"  >
+             <small>Error Message</small>
+            </div>
+            <br>
+    
+            <div class="form-content">
+             <label for="services1">Treatment</label>
+             <select name="services" id="services1" required>
+             <option value="default"disabled selected hidden>Select Treatment</option>
+             <option value="Fever">Fever</option>
+             <option value="Cold">Cold</option>
+             <option value="Diarrhea">Diarrhea</option>
+             <option value="Abdominal pain">Abdominal pain</option>
+             <option value="Sprains">Sprains</option>
+             <option value="Skin Problems">Skin Problems</option>
+             <option value="Joint Pain">Joint Pain</option>
+             <option value="Respiratory Problems">Respiratory Problems</option>
+         </select>
+         <small>Error Message</small>
+        </div>
+        <br>
+    
+        <div class="form-content">
+            <label for="dt">Appointment </label>
+            <input type="datetime-local" id="dt" name="date_time" >
+            <small>Error Message</small>
+        </div>
+        <br>
+    
+    
+        <div class="form-content">
+            <label for="facility1" class="faci">Have you previously attended our facility</label>
+            <br><br>
+            <input type="radio" id="facility1" name="attended"  value="Yes" checked="checked"> Yes
+            <input type="radio" id="facility1" class="fac"  name="attended" value="No">No
+            <small>Error Message</small>
+        </div>
+    
+    
+            
+    
+    
+    
+            
+    
+    
+           
+    
+         <div class="form-content" id="suub">
+            <br><input type="submit" value="submit" class="sub" id="suuu">
+         </div>
+    
+        </form>         
+    </section>
+ </section>
+
+
+<script src="form2.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   }
+
+
+/* MAin heading */
+
+.aa{
+    font-size: 6vmin;
+    font-weight: bolder;
+    width: 88%;
+    height:inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 270px;
+    
+    
+    
+}
+
+/* admin login and sign in button*/
+.ab{
+
+width:12%;
+height: inherit;
+text-align: center;
+
+}
+
+.ab p{
+    font-size: 3vmin;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: red;
+    margin-top: 16px;
+}
+
+.buon{
+   color: whitesmoke;
+   font-weight: bold;
+   font-size: 15px;
+    background-color: #1a73e8;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-top: 5px;
+
+}
+
+.buon:hover{
+    color: yellow;
+}
+
+.buon:active{
+    font-size: 18px;
+
+}
+
+.buon:visited{
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+
+/* nav */
+
+.navv{
+    width:100%;
+    height:100px;
+    background-color: rgb(205, 240, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/* section */
+
+
+section.whole{
+    background-image: url(images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100vw;
+    height:fit-content;
+}
+
+
+section.main{
+   max-width: 850px;
+   margin: 0 auto;
+   background-color: rgb(231, 224, 224);
+   border-radius: 5px;
+   box-shadow:10px 20px 25px rgba(0,0,0,.3) ;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-bottom: 10px;
+
+}
+
+
+/* heading  */
+
+
+
+div.head{
+    background-color: whitesmoke;
+    padding:10px 30px;
+    width:100%;
+    text-align: center;
+}
+
+
+/* label */
+
+label{
+    width:250px;
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+
+/* input all  */
+
+input{
+    width:280px;
+    height:25px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+/* input for gender */
+
+input#gender1{
+      width:auto;
+      height:0%;
+      border-radius: 0%;
+}
+
+.gen1{
+    margin-left: 40px;
+}
+
+/* select treatment */
+
+select#services1{
+    width:280px;
+    height:25px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+
+/* input facility */
+label.faci{
+    width:100%;
+}
+
+input#facility1{
+    width: auto;
+    height:auto;
+    border-radius: 0%;
+    margin-left: 50px;
+}
+
+
+/* submit */
+
+.sub{
+    
+    font-weight: bolder;
+    background-color: #1a73e8;
+    color: whitesmoke;
+    width:120px;
+    height:30px;
+    font-size: 15px;
+    border-radius: 8px;
+
+}
+
+.sub:hover{
+    color: yellow;
+}
+
+.sub:active{
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+#suub{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-left: 0%;
+    margin-top: 0%;
+}
+
+#suu{
+    text-align: center;
+    margin-left: 0%;
+}
+
+
+/* form */
+
+div.form-content{
+    background-color: rgb(231, 224, 224);
+    margin-top: 10px;
+    position: relative;
+    
+
+}
+
+
+div.form-content input{
+    border: 2px solid #989696;
+    
+}
+div.form-content input:focus{
+    border: 2px solid #282626;
+    
+}
+
+
+div.form-content select{
+    border: 2px solid #989696;
+}
+div.form-content select:focus{
+    border: 2px solid #282626;
+}
+
+div.form-content.success input{
+   border-color: #1dc463;
+}
+div.form-content.error input{
+    border-color: red;
+ }
+div.form-content.success select{
+   border-color: #1dc463;
+}
+div.form-content.error select{
+    border-color: red;
+ }
+
+ .form-content small{
+    color: red;
+    position: absolute;
+    top:26px;
+    left:257px;
+    visibility: hidden;
+    font-size: 16px;
+}
+
+.form-content.error small{
+    visibility: visible;
+}
+ 
+
+
+
+
+
+
+
