@@ -13,7 +13,7 @@
     font-weight: bolder;
     width: 88%;
     height:inherit;
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: center;
     padding-left: 270px;
@@ -31,12 +31,12 @@ text-align: center;
 
 }
 
-.ab p{
+.ab1 {
     font-size: 3vmin;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     color: red;
-    margin-top: 16px;
+    margin-top: 10px;
 }
 
 .buon{
@@ -84,11 +84,10 @@ text-align: center;
 
 
 section.whole{
-    background-image: url(images/bg1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #a2ccda;
     width:100vw;
-    height:fit-content;
+    height:100vw;
+    
 }
 
 
@@ -103,6 +102,7 @@ section.main{
    flex-direction: column;
    align-items: center;
    padding-bottom: 10px;
+
 
 }
 
@@ -265,6 +265,471 @@ div.form-content.error select{
     visibility: visible;
 }
  
+
+@media (max-width: 1575px) {
+
+    /* admin login and sign in button*/
+ .navv{
+        width:100%;
+        height:80px;
+        background-color: rgb(205, 240, 255);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* admin login and sign in button*/
+.ab{
+     width:100%;
+     margin-top: 5px;
+     display: flex;
+     justify-content:center;
+    
+    }
+    
+.ab1{
+        font-size: 2vmin;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        color: red;
+        margin-top: 5px;
+
+    }
+    
+
+.aa{
+        font-size: 3vmin;
+        font-weight: bolder;
+        width: 100%;
+        height:inherit;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0px;  
+    }
+
+.buon{
+        color: whitesmoke;
+        font-weight: bold;
+        font-size: 1.3vmin;
+         background-color: #1a73e8;
+         padding: 0px;
+         border-radius: 8px;
+         margin-left: 7px;
+         margin-top: 0px;
+         height:30px;
+         width:7vmin;
+     
+     }
+     
+.buon:hover{
+         color: yellow;
+     }
+     
+.buon:active{
+         font-size: 18px;
+     
+     }
+     
+.buon:visited{
+         color: whitesmoke;
+         font-weight: bold;
+         font-size: 15px;
+     }
+
+
+}
+
+@media (max-width: 1241px){
+
+    section.main{
+        max-width: 650px;
+        margin: 0 auto;
+        background-color: rgb(231, 224, 224);
+        border-radius: 5px;
+        box-shadow:10px 20px 25px rgba(0,0,0,.3) ;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 10px;
+     
+     }
+
+     
+
+}
+
+@media (max-width: 946px){
+
+    section.main{
+        max-width: 550px;
+        margin: 0 auto;
+        background-color: rgb(231, 224, 224);
+        border-radius: 5px;
+        box-shadow:10px 20px 25px rgba(0,0,0,.3) ;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 10px;
+     
+     }
+
+    label{
+        width:200px;
+        display: inline-block;
+        font-weight: bolder;
+        font-size: 18px;
+    }
+
+    /* input all  */
+
+input{
+    width:200px;
+    height:25px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+
+
+/* input for gender */
+
+input#gender1{
+    width:auto;
+    height:0%;
+    border-radius: 0%;
+}
+
+/* input for gender */
+
+input#gender1{
+    width:auto;
+    height:0%;
+    border-radius: 0%;
+}
+
+.gen1{
+  margin-left: 16px;
+}
+
+
+
+
+/* select treatment */
+
+select#services1{
+    width:200px;
+    height:25px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+
+
+
+/* form */
+
+div.form-content{
+    background-color: rgb(231, 224, 224);
+    margin-top: 10px;
+    position: relative;
+    
+
+}
+
+
+div.form-content input{
+    border: 2px solid #989696;
+    
+}
+div.form-content input:focus{
+    border: 2px solid #282626;
+    
+}
+
+
+div.form-content select{
+    border: 2px solid #989696;
+}
+div.form-content select:focus{
+    border: 2px solid #282626;
+}
+
+div.form-content.success input{
+   border-color: #1dc463;
+}
+div.form-content.error input{
+    border-color: red;
+ }
+div.form-content.success select{
+   border-color: #1dc463;
+}
+div.form-content.error select{
+    border-color: red;
+ }
+
+ .form-content small{
+    color: red;
+    position: absolute;
+    top:26px;
+    left:208px;
+    visibility: hidden;
+    font-size: 12px;
+}
+
+.form-content.error small{
+    visibility: visible;
+}
+
+     
+
+}
+
+@media (max-width: 816px){
+    .ab1{
+        font-size: 18px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        color: red;
+        margin-top: 5px;
+
+    }
+    
+
+.aa{
+        font-size: 28px;
+        font-weight: bolder;
+        width: 100%;
+        height:inherit;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0px;  
+    }
+    
+    .buon{
+        color: whitesmoke;
+        font-weight: bold;
+        font-size: 10px;
+         background-color: #1a73e8;
+         padding: 0px;
+         border-radius: 8px;
+         margin-left: 7px;
+         margin-top: 0px;
+         height:30px;
+         width:60px;
+     
+     }
+    
+    section.main{
+        max-width:450px;
+        margin: 0 auto;
+        background-color: rgb(231, 224, 224);
+        border-radius: 5px;
+        box-shadow:10px 20px 25px rgba(0,0,0,.3) ;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 10px;
+     
+     }
+
+     .gen1{
+        margin-left: 14px;
+      }
+
+     
+}
+
+
+@media (max-width: 460px){
+    .ab1{
+        font-size: 12px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        color: red;
+        margin-top: 5px;
+
+    }
+    
+
+.aa{
+        font-size: 20px;
+        font-weight: bolder;
+        width: 100%;
+        height:inherit;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0px;  
+    }
+    
+    .buon{
+        color: whitesmoke;
+        font-weight: bold;
+        font-size: 10px;
+         background-color: #1a73e8;
+         padding: 0px;
+         border-radius: 8px;
+         margin-left: 7px;
+         margin-top: 0px;
+         height:20px;
+         width:60px;
+     
+     }
+    
+    section.main{
+        max-width:450px;
+        margin: 0 auto;
+        background-color: rgb(231, 224, 224);
+        border-radius: 5px;
+        box-shadow:10px 20px 25px rgba(0,0,0,.3) ;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 10px;
+     
+     }
+
+     .navv{
+        width:100%;
+        height:60px;
+        background-color: rgb(205, 240, 255);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* heading  */
+
+
+
+div.head h1{
+    font-size: 16px;
+
+}
+div.head p{
+    font-size: 13px;
+
+}
+
+label{
+    width:140px;
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 13px;
+}
+
+/* input all  */
+
+input{
+width:160px;
+height:25px;
+border-radius: 5px;
+padding-left: 10px;
+}
+
+/* input for gender */
+
+input#gender1{
+width:auto;
+height:0%;
+border-radius: 0%;
+}
+
+.gen1{
+    margin-left: 10px;
+  }
+
+/* select treatment */
+
+select#services1{
+width:160px;
+height:25px;
+border-radius: 5px;
+padding-left: 10px;
+}
+
+
+
+/* form */
+
+div.form-content{
+background-color: rgb(231, 224, 224);
+margin-top: 10px;
+position: relative;
+
+
+}
+
+
+div.form-content input{
+border: 2px solid #989696;
+
+}
+div.form-content input:focus{
+border: 2px solid #282626;
+
+}
+
+
+div.form-content select{
+border: 2px solid #989696;
+}
+div.form-content select:focus{
+border: 2px solid #282626;
+}
+
+div.form-content.success input{
+border-color: #1dc463;
+}
+div.form-content.error input{
+border-color: red;
+}
+div.form-content.success select{
+border-color: #1dc463;
+}
+div.form-content.error select{
+border-color: red;
+}
+
+.form-content small{
+color: red;
+position: absolute;
+top:26px;
+left:148px;
+visibility: hidden;
+font-size: 10px;
+}
+
+.form-content.error small{
+visibility: visible;
+}
+
+/* submit */
+
+.sub{
+    
+    font-weight: bolder;
+    background-color: #1a73e8;
+    color: whitesmoke;
+    width:100px;
+    height:25px;
+    font-size: 15px;
+    border-radius: 8px;
+
+}
+     
+}
+
+
+
+
 
 
 
