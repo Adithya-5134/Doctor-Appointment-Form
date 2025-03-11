@@ -9,9 +9,13 @@ Welcome to the **Doctor Appointment Form** project! This is a simple, user-frien
 ## 🚀 Features
 
 ✅ **Easy Appointment Booking** – Patients can quickly fill out the form to book an appointment.  
+
 ✅ **User-Friendly Interface** – Simple, clean, and intuitive design for a smooth experience.  
+
 ✅ **Form Validation** – Ensures that all required fields are properly filled.  
+
 ✅ **Responsive Design** – Works seamlessly on desktops, tablets, and mobile devices. 📱💻  
+
 ✅ **Secure Data Handling** – Uses PHP for backend processing and MySQL for storing appointment details.  
 
 ---
@@ -19,8 +23,11 @@ Welcome to the **Doctor Appointment Form** project! This is a simple, user-frien
 ## 🛠️ Tech Stack
 
 - **Frontend**: HTML, CSS, JavaScript 🎨
+
 - **Backend**: PHP 🐘
+  
 - **Database**: MySQL 🗄️
+  
 - **Server**: XAMPP (for local testing) ⚡
 
 ---
