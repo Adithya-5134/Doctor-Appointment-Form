@@ -39,16 +39,20 @@ Welcome to the **Doctor Appointment Form** project! This is a simple, user-frien
 git clone https://github.com/Adithya-5134/Doctor-Appointment-Form.git
 ```
 
+
 2️⃣ **Move to the Project Directory**  
 ```bash
 cd Doctor-Appointment-Form
 ```
 
+
 3️⃣ **Start XAMPP Server** and place the project folder inside `htdocs`.  
+
 
 4️⃣ **Create the Database**  
 - Open **phpMyAdmin** and create a database (e.g., `appointment_db`).
 - Import the provided `database.sql` file. 
+
 
 5️⃣ **Run the Project**  
 - Open your browser and visit:  
@@ -61,8 +65,11 @@ cd Doctor-Appointment-Form
 ## 💡 How It Works
 
 1️⃣ The user fills out the **appointment booking form**. 📝  
+
 2️⃣ The form data is validated and submitted to the **PHP backend**. 🔄  
+
 3️⃣ The appointment details are stored securely in **MySQL database**. 🗃️  
+
 4️⃣ The clinic/hospital can access and manage the appointments. 🏥  
 
 ---
@@ -70,7 +77,9 @@ cd Doctor-Appointment-Form
 ## 🎯 Future Improvements
 
 🔹 Add **email notifications** for confirmed appointments 📩  
+
 🔹 Implement a **doctor availability feature** 🩺  
+
 🔹 Enhance **UI/UX** with Bootstrap or Tailwind CSS 🎨  
 
 
